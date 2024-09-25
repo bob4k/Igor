@@ -1,0 +1,81 @@
+.about-us{
+    margin-bottom: 80px;
+}
+
+.about__map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./../img/about/map.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about__title{
+    line-height: 1;
+    font-size: 64px;
+}
+
+.about__img{
+    height: 150px;
+}
+
+.about__map{
+    margin-top: 45px;
+}
+
+.about__map-content{
+    max-width: 500px;
+    //text-align: center;
+
+    position: relative;
+
+    margin-right: 210px;
+    margin-bottom: 200px;
+
+    &:nth-child(even) {
+        right: -300px;
+    }
+
+    &:before{
+        content: '';
+        background-image: url(./../img/header/2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 650px;
+        height: 150px;
+
+        margin-top: 20px;
+    }
+}
+
+.about__map-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.about__subtitle{
+    font-size: 20px;
+    font-family: $font-accent;
+
+    font-weight: 600;
+    text-align: center;
+
+    margin-bottom: 5px;
+}
+
+.about__text{
+    margin-left: 35px;
+    font-family: $font-accent;
+}

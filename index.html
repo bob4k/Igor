@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__info">
+                <h1 class="header__title title">
+                    Road To The Dream
+                </h1>
+                <p class="header__text">
+                    Стань человеком, который вдохновляет окружающих!
+                </p>
+            </div>
+            <!-- <div class="header__picture">
+                <img class="header__img" src="./img/header/3.png" alt="">
+                <img class="header__img header__img--2" src="./img/header/3.png" alt="">
+            </div> -->
+
+            <div class="header__nav">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Карта</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#todo" class="nav__link">ToDO List</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#guide" class="nav__link">Курсы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#words" class="nav__link">Цитаты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+</header>
+
+<main class="main">
+    <section id="about" class="about-us">
+       <div class="container">
+        <h1 class="about__title title">
+            Мотивационная карта<br> Игоря Войтенко
+         </h1>
+ 
+         <div class="about__map">
+             <div class="about__map-content">
+                 <div class="about__map-info">
+                     <h2 class="about__subtitle">1.Узнай себя</h2>
+                 <p class="about__text">
+                     Да, мэн, сделай это дерьмо, стань лучше,
+                     найди своего внутреннего зверя и вжаривай 
+                     до конца!
+                 </p>
+                 </div>
+             </div>
+             <div class="about__map-content">
+                 <div class="about__map-info">
+                     <h2 class="about__subtitle">2.ToDo List</h2>
+                 <p class="about__text">
+                     На этом сайте, мэн, представлен ToDo List разработанный 
+                     специально для тебя МЭН! 
+                 </p>
+                 </div>
+             </div>
+             <div class="about__map-content">
+                 <div class="about__map-info">
+                     <h2 class="about__subtitle">3.Приобрети мои курсы</h2>
+                 <p class="about__text">
+                     Научись пользоваться моцивационным To Do листом
+                     с помощью моих курсов Мэн!
+                 </p>
+                 </div>
+             </div>
+         </div>
+       </div>
+
+    </section>
+
+    <section id="todo" class="ToDoList">
+        <div class="container">
+            <h1 class="ToDO__title title">ToDo приложение<span>by Игорь войтенко</span></h1>
+            <h2 class="ToDo__subtitle">список задач на сегодня</h2>
+
+            <div class="ToDO__list">
+                <ul id="tasksList" class="list__group ">
+                    <!-- <li id="emptyList" class="list__group-item empty-list">
+                        <img class="list__group-img" src="./img/header/1.png" alt="">
+                        <p class="ToDo__text">Список дел пуст</p>
+                    </li> -->
+
+                    <!-- <li class="list__group-item d-flex">
+                        <span class="task__title">Ебошь</span>
+                        <div class="task__item-buttons">
+                            <button type="button" data-action="done" class="btn-action">
+                                <img src="./img/ToDo/tick.svg" alt="" width="18" height="1">
+                            </button>
+                            <button type="button" data-action="delete" class="btn-action">
+                                <img src="./img/ToDo/cross.svg" alt="" width="18" height="1">
+                            </button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="new__card">
+                <h2 class="card__subtitle">Добавить новую задачу</h2>
+                <div class="card__body">
+                    <form id="form">
+                       <div class="form__group">
+                        <input id="taskInput" type="text" class="ToDo__input" placeholder="Текст задачи" required>
+                        <small id="emailHelp" class="ToDO__form-text">Пока они пили пиво на лавке, мы строили свое будущее!</small>
+                       </div>
+                       <button type="submit" class="btn">Добавить</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<section id="guide" class="guide">
+    <div class="container">
+        <h1 class="guide__title title">Мои мотивационные курсы, Мэн!</h1>
+    <p class="guide__text">Приобрети курсы и стань лучше!</p>
+    <div class="shop">
+        <h2 class="shop__title">Выбери свою программу<span>:</span></h2>
+        <div class="shop__content">
+            <div class="shop__items" data-id="01">
+                <img class="shop__img" src="./img/shop/preview-1.jpg" alt="">
+                <div class="shop__items-info">
+                    <small class="shop__items-subtitle">Программа</small>
+                    <h3 class="shop__items-title">Воин Спарты</h3>
+                    <p class="shop__items-target">Фокус: сжечь жир, построить сухую форму, накачать пресс.</p>
+                    <div data-items-in-box class="shop__items-piece">1 шт.</div>
+                    <div class="shop__items-wapper">
+                        <div class="wrapper__counter">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                        <div class="wrapper__price">
+                            <div class="price__currency">1200 ₽</div>
+                        </div>
+                    </div>
+                    <button data-cart type="button" class="shop__btn">+ в корзину</button>
+                </div>
+            </div>
+            <div class="shop__items" data-id="02">
+                <img class="shop__img" src="./img/shop/preview-2.jpg" alt="">
+                <div class="shop__items-info">
+                    <small class="shop__items-subtitle">Программа</small>
+                    <h3 class="shop__items-title">ULTIMATE SUMMER PHYSIQUE</h3>
+                    <p class="shop__items-target">Фокус: сжечь жир, построить сухую форму, накачать пресс.</p>
+                    <div data-items-in-box class="shop__items-piece">1 шт.</div>
+                    <div class="shop__items-wapper">
+                        <div class="wrapper__counter">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                        <div class="wrapper__price">
+                            <div class="price__currency">1800 ₽</div>
+                        </div>
+                    </div>
+                    <button data-cart type="button" class="shop__btn">+ в корзину</button>
+                </div>
+            </div>
+            <div class="shop__items" data-id="03">
+                <img class="shop__img" src="./img/shop/preview-3.jpg" alt="">
+                <div class="shop__items-info">
+                    <small class="shop__items-subtitle">Программа</small>
+                    <h3 class="shop__items-title">5 НЕДЕЛЬ К ЭСТЕТИКЕ</h3>
+                    <p class="shop__items-target">Фокус: Сфокусированная проработка мышечных групп. Развитие силы и выносливости. Создание эстетической фигуры</p>
+                    <div data-items-in-box class="shop__items-piece">1 шт.</div>
+                    <div class="shop__items-wapper">
+                        <div class="wrapper__counter">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                        <div class="wrapper__price">
+                            <div class="price__currency">1500 ₽</div>
+                        </div>
+                    </div>
+                    <button data-cart type="button" class="shop__btn">+ в корзину</button>
+                </div>
+            </div>
+            <div class="shop__items" data-id="04">
+                <img class="shop__img" src="./img/shop/preview-4.jpg" alt="">
+                <div class="shop__items-info">
+                    <small class="shop__items-subtitle">Программа</small>
+                    <h3 class="shop__items-title">Best morning</h3>
+                    <p class="shop__items-target">Фокус: встать в 5 утра, дрочить до полного отказа, пить пивко.</p>
+                    <div data-items-in-box class="shop__items-piece">1 шт.</div>
+                    <div class="shop__items-wapper">
+                        <div class="wrapper__counter">
+                            <div class="items__control" data-action="minus">-</div>
+                            <div class="items__current" data-counter>1</div>
+                            <div class="items__control" data-action="plus">+</div>
+                        </div>
+                        <div class="wrapper__price">
+                            <div class="price__currency">5200 ₽</div>
+                        </div>
+                    </div>
+                    <button data-cart type="button" class="shop__btn">+ в корзину</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trash">
+        <h1 class="trash__title title">Корзина</h1>
+        <h2 class="trash__subtitle">Закажи это дерьмо, Мэн!</h2>
+        <div class="trash__content">
+            <div class="trash__items">
+               <div class="order">
+                <h4 class="trash__item-title">Ваш заказ</h4>
+                <div data-cart-empty class="trash__clear">Корзина пуста</div>
+                 <div class="card__wrapper">
+                    <!-- <div class="card__hold">
+                        <div class="cart__item-top">
+                            <img class="trash__img" src="./img/shop/preview-1.jpg" alt="">
+                        </div>
+                        <div class="card__item-info">
+                            <small class="trash__item-subtitle">Программа</small>
+                            <div class="cart__item-title">Zalupa</div>
+                            <div class="card__item-details">
+                                <div class="wrapper__counter">
+                                    <div class="items__control" data-action="minus">-</div>
+                                    <div class="items__current" data-counter="">1</div>
+                                    <div class="items__control" data-action="plus">+</div>
+                                </div>
+                                <div class="card__item-price">
+                                    <div class="price__currency">250 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div> 
+               </div>
+                <div class="card-total">
+                    <h5 class="card-total__info">
+                        Стоимость заказа:
+                    </h5>
+                    <p data-cart-delivery>
+                        <span class="price__title">Доставка:</span>
+                        <span class="price">бесплатно</span>
+                    </p>
+                    <div class="price__info">
+                        <span class="price__full">Итого:</span>
+                        <span class="price-second">0 ₽</span>
+                    </div>
+                </div>
+                <div id="order-form" class="order-form">
+                    <h5 class="order__title">Оформить заказ</h5>
+                    <form>
+                        <div class="order-group">
+                            <input type="text" class="form-control" placeholder="Ваш номер телефона"> 
+                        </div>
+                        <button type="submit" class="order-btn">Заказать</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+<section id="words" class="words">
+    <div class="container">
+        <div class="words__banner">
+            <h2 class="words__subtitle">Мэн, это для тебя мэн</h2>
+            <h3 class="words__subtitle-info">Вдохновись ими и вжаривай до конца</h3>
+            <h1 class="words__title title">Великие Цитаты Игоря Войтенко</h1>
+        </div>
+
+        <div class="words__card">
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/1.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Стань человеком, который вдохновляет окружающих! ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/2.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Расширяй рамки возможного ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/3.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Будь героем, для нее и для мира ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/4.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Все или ничего! ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/5.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Есть только два дня в году, когда ты не можешь ничего сделать: вчера и завтра! Действуй сегодня! ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/6.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Строим прочный фундамент ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/7.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Чем тяжелее, тем лучше! ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+            <div class="words__content">
+                <div class="words_picture">
+                    <img class="words__img" src="./img/words/8.jpg" alt="">
+                </div>
+                <div class="words__info">
+                    <blockquote class="words__blockquote">❝ Начни день с победы! ❞</blockquote>
+                    <cite class="words__cite">Игорь Войтенко</cite>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+<script src="./js/calcCartPrice.js"></script>
+<script src="./js/toggleCardStatus.js"></script>
+<script src="./js/shop.js"></script>
+<script src="./js/card.js"></script>
+<script src="./js/ToDo.js"></script>
+</body>
+</html>

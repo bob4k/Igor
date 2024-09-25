@@ -1,0 +1,180 @@
+.ToDoList{
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.ToDo__list{
+    margin-bottom: 1.5rem !important;
+}
+
+.ToDO__title{
+    text-align: left;
+
+    span{
+        font-size: 28px;
+        font-weight: 400;
+    }
+}
+
+.ToDo__subtitle{
+    font-size: 24px;
+    font-family: $font-accent;
+}
+
+.list__group{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    margin-bottom: 20px;
+}
+
+.empty-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.list__group-item{
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+
+.list__group-img{
+    margin-top: 20px;
+    width: 68px;
+    height: 68px; 
+}
+
+.new__card{
+    border: 1px solid rgba(0, 0, 0, .125);
+    width: 1100px;
+}
+
+.ToDo__text{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: $font-accent;
+}
+
+.card__subtitle{
+    padding: .75rem 1.25rem;
+    background-color: rgb(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card__body{
+    padding: 1.25rem;
+}
+
+.ToDo__input{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.ToDO__form-text{
+    display: block;
+    margin-top: .25rem;
+}
+
+.btn{
+    color: #fff;
+    background-color: $accent;
+    border-color: #005cbf;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+
+    user-select: none;
+    border: 1px solid transparent;
+
+    margin-top: 5px;
+}
+
+.task__item-buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.btn-action{
+    background-color: #e0e5ea;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    transition: opacity 0.2s ease-in;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-action img{
+    pointer-events: none;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task__title{
+    padding-top: 5px;
+    font-weight: 400;
+    font-family: $font-accent;
+
+    &--done{
+    text-decoration: line-through;
+    color: #CDCDCD;
+    }
+}
+
+.btn-action {
+    background-color: #e0e5ea;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    transition: opacity 0.2s ease-in;
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-action:hover {
+    background-color: #e0e5ea;
+    opacity: 1;
+}
+/* pointer-events: none - чтобы игнорировать картинку при нажатии кнопки */
+.btn-action img {
+  pointer-events: none; 
+}
+
